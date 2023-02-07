@@ -1,0 +1,117 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "超英预告",
+						"backgroundColor": "#666666",
+						"titleColor": "#fff"
+					}
+				}
+				// "enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/search/search",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "default",
+						"titleText": "搜索",
+						"backgroundColor": "#666666",
+						"titleColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "我的",
+						"backgroundColor": "#666666",
+						"titleColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "详情",
+						"backgroundColor": "#666666",
+						"titleColor": "#fff"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/imageDownLoad/imageDownLoad",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent",
+						"titleText": "下载",
+						"backgroundColor": "#666666",
+						"titleColor": "#fff"
+					}
+				}
+			}
+		}, {
+			"path": "pages/registry/registry",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "超英预告",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#ffffff"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"backgroundColor": "#ffffff",
+		"color": "#bfbfbf",
+		"selectedColor": "#1294D8",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabBarIcon/home.svg",
+				"selectedIconPath": "static/tabBarIcon/home-sel.svg"
+			},
+			{
+				"pagePath": "pages/search/search",
+				"text": "搜索",
+				"iconPath": "static/tabBarIcon/search.svg",
+				"selectedIconPath": "static/tabBarIcon/search-sel.svg"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/tabBarIcon/user-center.svg",
+				"selectedIconPath": "static/tabBarIcon/user-center-sel.svg"
+			}
+		]
+	}
+
+}

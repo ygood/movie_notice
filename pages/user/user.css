@@ -1,0 +1,88 @@
+.user-page-header {
+	background-color: #666666;
+	height: 200rpx;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.login-wapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start
+}
+
+.userInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-left: 40rpx;
+	color: #fff;
+	width: 60%;
+}
+
+.login-icon {
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 50%;
+	flex-shrink: 0;
+}
+
+.user-content {
+	margin-left: 40rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start
+}
+
+.user-name {
+	font-size: 18px;
+	font-weight: bold;
+	width: 280rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.user-account {
+	font-size: 13px;
+	width: 280rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.account-setting {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 40%;
+}
+
+.unlogin-wapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	line-height: 100%;
+	padding-left: 40rpx;
+}
+
+.unlogin-icon::before {
+	background-color: #fff;
+	border-radius: 50%;
+	align-self: center;
+}
+
+.registry {
+	color: #fff;
+	font-size: 18px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.uni-icons {
+	text-align: right;
+	padding-right: 40rpx;
+}
