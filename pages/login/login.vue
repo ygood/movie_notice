@@ -76,7 +76,7 @@
 			alertref.open()
 		})
 		// 登錄成功
-		if (result.errCode === responseStatus.OK) {
+		if (result && result.errCode === responseStatus.OK) {
 			setAccountInfo(result.data)
 			uni.switchTab({
 				url: "/pages/user/user"

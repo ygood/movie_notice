@@ -13,7 +13,7 @@
 						</view>
 					</view>
 				</view>
-				<view class="account-setting">
+				<view class="account-setting" @click="toUserInfo">
 					<uni-icons type="gear" size="30" color="#fff" />
 				</view>
 			</view>
@@ -21,16 +21,10 @@
 				<uni-icons type="person" size="60" color="#666666" class="unlogin-icon" />
 				<view class="registry">
 					<navigator url="/pages/login/login">
-						<text>登录</text>
-					</navigator>
-					/
-					<navigator url="/pages/registry/registry">
-						<text>注册</text>
+						<text>登录 / 注册</text>
 					</navigator>
 				</view>
 			</view>
-
-			<!-- <image :src="movieDetailJson?.image" class="header-avatar-image"> -->
 		</view>
 	</view>
 </template>
@@ -38,9 +32,8 @@
 <script lang="ts" setup>
 	import { ref } from "vue"
 	import { onShow } from '@dcloudio/uni-app'
-	import request from "../../utils/request"
 	import { Account } from "../../entity/interface/Account"
-	import { responseStatus } from "../../utils/enum"
+	import { getAccountInfo } from "../../utils/storage"
 
 	const islogin = ref(false)
 	const account = ref < Account > ()
@@ -50,11 +43,14 @@
 	})
 
 	async function getAccount() {
-		islogin.value = false
-		const res = await request < Account > (`account`)
-		if (res?.errCode === responseStatus.OK) {
-			// islogin.value = true
-			account.value = res?.data
+
+		const userinfo = getAccountInfo()
+		if (userinfo) {
+			account.value = userinfo as Account
+			islogin.value = true
+		} else {
+			islogin.value = false
+			account.value = undefined
 		}
 	}
 
@@ -67,6 +63,13 @@
 				current: account.value.avatar
 			})
 		}
+	}
+
+	function toUserInfo() {
+		console.log("aaaaaaaaaaaaa")
+		uni.navigateTo({
+			url: "/pages/userInfo/userInfo"
+		})
 	}
 </script>
 

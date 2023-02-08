@@ -7,7 +7,7 @@
 					"titleNView": {
 						"type": "transparent",
 						"titleText": "超英预告",
-						"backgroundColor": "#666666",
+						"backgroundColor": "#000",
 						"titleColor": "#fff"
 					}
 				}
@@ -21,7 +21,7 @@
 					"titleNView": {
 						"type": "default",
 						"titleText": "搜索",
-						"backgroundColor": "#666666",
+						"backgroundColor": "#000",
 						"titleColor": "#fff"
 					}
 				}
@@ -31,12 +31,7 @@
 			"path": "pages/user/user",
 			"style": {
 				"app-plus": {
-					"titleNView": {
-						"type": "transparent",
-						"titleText": "我的",
-						"backgroundColor": "#666666",
-						"titleColor": "#fff"
-					}
+					"titleNView": false
 				}
 			}
 		},
@@ -47,7 +42,7 @@
 					"titleNView": {
 						"type": "transparent",
 						"titleText": "详情",
-						"backgroundColor": "#666666",
+						"backgroundColor": "#000",
 						"titleColor": "#fff"
 					}
 				}
@@ -60,16 +55,22 @@
 					"titleNView": {
 						"type": "transparent",
 						"titleText": "下载",
-						"backgroundColor": "#666666",
+						"backgroundColor": "#000",
 						"titleColor": "#fff"
 					}
 				}
 			}
 		}, {
-			"path": "pages/registry/registry",
+			"path": "pages/userInfo/userInfo",
 			"style": {
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"app-plus": {
+					"titleNView": {
+						"type": "default",
+						"titleText": "用户信息",
+						"backgroundColor": "#000",
+						"titleColor": "#fff"
+					}
+				}
 			}
 
 		}, {

@@ -1,0 +1,258 @@
+{
+  "noticeList": {
+    "data": [
+      "/static/movieReport/yin.jpeg",
+      "/static/movieReport/shaqiu.jpeg",
+      "/static/movieReport/santi.jpeg"
+    ]
+  },
+  "hotList": {
+    "data": [
+      {
+        "id": 1,
+        "image": "/static/hotMovies/afanda.jpg",
+        "name": "阿凡达：水之道",
+        "grades": 9
+      },
+      {
+        "id": 2,
+        "image": "/static/hotMovies/jiangziya.jpeg",
+        "name": "姜子牙",
+        "grades": 8.7
+      },
+      {
+        "id": 3,
+        "image": "/static/hotMovies/leishen.jpeg",
+        "name": "雷神",
+        "grades": 8.5
+      },
+      {
+        "id": 4,
+        "image": "/static/hotMovies/wukongzhuan.jpeg",
+        "name": "悟空传",
+        "grades": 8.3
+      },
+      {
+        "id": 5,
+        "image": "/static/hotMovies/xiadalianmeng.jpg",
+        "name": "侠盗联盟",
+        "grades": 6
+      },
+      {
+        "id": 6,
+        "image": "/static/hotMovies/zhongjidaima.jpg",
+        "name": "终极代码",
+        "grades": 4.5
+      },
+      {
+        "id": 7,
+        "image": "/static/hotMovies/zhongjiezhe.jpeg",
+        "name": "终结者",
+        "grades": 0.5
+      }
+    ]
+  },
+  "videoList": {
+    "data": [
+      {
+        "id": 1,
+        "src": "https://vipmp4i.vodfile.m1905.com/202302071643/714d3dcf9d86c196fb4c765d227f7c36/video/2022/12/20/v20221220JMKBOC0AFJJPQ33B/v20221220JMKBOC0AFJJPQ33B.mp4",
+        "name": "穿鞋子的猫2",
+        "imge": "https://image11.m1905.cn/uploadfile/2022/1212/20221212093202785813.jpg"
+      },
+      {
+        "id": 2,
+        "src": "https://vipmp4i.vodfile.m1905.com/202302071644/70423d9e77b4c697b9c1f4665f88f37a/video/2022/11/23/v20221123P2ISV10ETS9CZAYS/v20221123P2ISV10ETS9CZAYS.mp4",
+        "name": "阿凡达：水之道",
+        "imge": "https://image11.m1905.cn/uploadfile/2022/1123/20221123101309715898.jpg"
+      },
+      {
+        "id": 3,
+        "src": "https://vipmp4i.vodfile.m1905.com/202302071645/8cf5ecc369c7bb01e61005a732fbb65b/video/2022/11/08/v20221108OCNHOM0ZUETT9D7Y/v20221108OCNHOM0ZUETT9D7Y.mp4",
+        "name": "利刃出鞘2",
+        "imge": "https://image11.m1905.cn/uploadfile/2022/1108/20221108101732363679.jpg"
+      },
+      {
+        "id": 4,
+        "src": "https://vipmp4i.vodfile.m1905.com/202302071645/84f7e449b0a027f06aaa902a82a95dbe/video/2016/10/19/v20161019GRZVD105I3SQPSGZ/v20161019GRZVD105I3SQPSGZ.mp4",
+        "name": "银河护卫队",
+        "imge": "https://image11.m1905.cn/uploadfile/2014/0414/20140414015245253651.jpg"
+      }
+    ]
+  },
+  "loveList": {
+    "data": [
+      {
+        "id": 1,
+        "image": "https://image11.m1905.cn/uploadfile/2016/0128/20160128095552802351.jpg",
+        "name": "疯狂动物城",
+        "time": "2016",
+        "country": "美国",
+        "type": "动画",
+        "keyword": "冒险、动作",
+        "releaseTime": "2020-07-24(内地)",
+        "grades": 5.9
+      },
+      {
+        "id": 2,
+        "image": "https://image11.m1905.cn/uploadfile/2020/0203/20200203094454540145.jpg",
+        "name": "小黄人大眼萌：神偷奶爸前传",
+        "time": "2022",
+        "country": "美国",
+        "type": "动画",
+        "keyword": "小黄人",
+        "releaseTime": "2022-08-19(内地)",
+        "grades": 9.5
+      },
+      {
+        "id": 3,
+        "image": "https://image11.m1905.cn/uploadfile/2022/0822/20220822104416255567.jpg",
+        "name": "忠犬帕尔玛",
+        "time": "2022",
+        "country": "俄罗斯",
+        "type": "剧情",
+        "keyword": "家庭",
+        "releaseTime": "2022-08-26(内地)",
+        "grades": 7.4
+      },
+      {
+        "id": 4,
+        "image": "https://image11.m1905.cn/uploadfile/2021/0610/20210610105337662527.jpg",
+        "name": "侏罗纪世界3",
+        "time": "2022",
+        "country": "美国",
+        "type": "科幻",
+        "keyword": "侏罗纪恐龙",
+        "releaseTime": "2022-06-10(内地)",
+        "grades": 6.9
+      }
+    ]
+  },
+  "movieList": {
+    "data": {
+      "total": 7,
+      "movies": [
+        {
+          "id": 1,
+          "image": "/static/hotMovies/afanda.jpg",
+          "name": "阿凡达：水之道",
+          "grades": 9
+        },
+        {
+          "id": 2,
+          "image": "/static/hotMovies/jiangziya.jpeg",
+          "name": "姜子牙",
+          "grades": 8.7
+        },
+        {
+          "id": 3,
+          "image": "/static/hotMovies/leishen.jpeg",
+          "name": "雷神",
+          "grades": 8.5
+        },
+        {
+          "id": 4,
+          "image": "/static/hotMovies/wukongzhuan.jpeg",
+          "name": "悟空传",
+          "grades": 8.3
+        },
+        {
+          "id": 5,
+          "image": "/static/hotMovies/xiadalianmeng.jpg",
+          "name": "侠盗联盟",
+          "grades": 6
+        },
+        {
+          "id": 6,
+          "image": "/static/hotMovies/zhongjidaima.jpg",
+          "name": "终极代码",
+          "grades": 4.5
+        },
+        {
+          "id": 7,
+          "image": "/static/hotMovies/zhongjiezhe.jpeg",
+          "name": "终结者",
+          "grades": 0.5
+        }
+      ]
+    }
+  },
+  "movieDeatilVideo": {
+    "data": {
+      "id": 1,
+      "name": "阿凡达：水之道",
+      "formerly": "Avatar: The Way of Water",
+      "image": "https://image11.m1905.cn/uploadfile/2022/1123/20221123032336522982.jpg",
+      "src": "https://vipmp4i.vodfile.m1905.com/202302071644/70423d9e77b4c697b9c1f4665f88f37a/video/2022/11/23/v20221123P2ISV10ETS9CZAYS/v20221123P2ISV10ETS9CZAYS.mp4",
+      "info": "2022 / 美国 / 科幻 / 外星人入侵",
+      "releaseTime": "2022-06-10(内地)",
+      "duration": "140分钟",
+      "describe": "《阿凡达2》的剧情承接自第一部的5年之后。曾经的地球残疾军人杰克·萨利，如今已经是潘多拉星球纳美族一方部族的族长，并且与爱妻娜塔莉共同育有一对可爱的儿女，日子过得平淡而充实。然而某天，有个部族的兄弟在海岸附近巡逻时遭到利器割喉身亡。通过现场勘查，以及作为前海军陆战队员的敏锐直觉，杰克判断已经有人类的阿凡达混入了部落……",
+      "grades": 9,
+      "praise": "9999+"
+    }
+  },
+  "directors": {
+    "data": [
+      {
+        "name": "詹姆斯·卡梅隆",
+        "id": 1,
+        "src": "http://image14.m1905.cn/uploadfile/2014/0523/thumb_1_64_64_20140523015113843930.jpg"
+      }
+    ]
+  },
+  "actors": {
+    "data": [
+      {
+        "name": "西格妮·韦弗",
+        "id": 1,
+        "src": "https://image11.m1905.cn/uploadfile/2013/1231/thumb_1_77_76_20131231014505319332.jpg",
+        "role": "绮莉 / 奥古斯汀博士"
+      },
+      {
+        "name": "萨姆·沃辛顿",
+        "id": 2,
+        "src": "https://image11.m1905.cn/uploadfile/2013/0314/thumb_1_77_76_20130314103358416.jpg",
+        "role": "萨利"
+      },
+      {
+        "name": "克利夫·柯蒂斯",
+        "id": 3,
+        "src": "https://image11.m1905.cn/uploadfile/2012/0727/thumb_1_77_76_20120727060850881.jpg",
+        "role": "特诺瓦里"
+      },
+      {
+        "name": "史蒂芬·朗",
+        "id": 4,
+        "src": "https://image11.m1905.cn/uploadfile/2013/1014/thumb_1_77_76_20131014094644556.jpg",
+        "role": "夸里奇"
+      }
+    ]
+  },
+  "tidbits": {
+    "data": [
+      "https://image11.m1905.cn/uploadfile/2020/0107/thumb_1_224_224_20200107031933599076.jpg",
+      "https://image11.m1905.cn/uploadfile/2020/0107/thumb_1_224_224_20200107031934419634.jpg",
+      "https://image11.m1905.cn/uploadfile/2020/0107/thumb_1_224_224_20200107031934451437.jpg",
+      "https://image11.m1905.cn/uploadfile/2020/0507/thumb_1_224_224_20200507011945110779.jpg",
+      "https://image11.m1905.cn/uploadfile/2020/0507/thumb_1_224_224_20200507011955892568.jpg",
+      "https://image11.m1905.cn/uploadfile/2021/1215/thumb_1_224_224_20211215092325110936.jpg",
+      "https://image11.m1905.cn/uploadfile/2021/1221/thumb_1_224_224_20211221020343723824.jpg",
+      "https://image11.m1905.cn/uploadfile/2022/0506/thumb_1_224_224_20220506024744338096.jpg"
+    ]
+  },
+  "account": {
+    "data": {
+      "name": "admin-yl",
+      "account": "weixin1239722456yl",
+      "birthday": "1996-08-10",
+      "avatar": "https://image11.m1905.cn/uploadfile/2023/0105/20230105092941495474.jpg",
+      "gender": "1"
+    }
+  },
+  "login": {
+    "name": "admin",
+    "password": "admin123"
+  },
+  "logout": {}
+}
